@@ -55,7 +55,6 @@
         android:layout_marginBottom="5dp"
         android:background="@color/white"
         android:hint="Apellidos"
-        android:inputType="textPassword"
         android:padding="10dp"
         android:textColor="@color/black"
         android:textColorHint="@color/black" />
@@ -72,7 +71,6 @@
         android:layout_marginBottom="5dp"
         android:background="@color/white"
         android:hint="Género"
-        android:inputType="textPassword"
         android:padding="10dp"
         android:textColor="@color/black"
         android:textColorHint="@color/black" />
@@ -89,7 +87,6 @@
         android:layout_marginBottom="5dp"
         android:background="@color/white"
         android:hint="Edad"
-        android:inputType="textPassword"
         android:padding="10dp"
         android:textColor="@color/black"
         android:textColorHint="@color/black" />
@@ -106,7 +103,6 @@
         android:layout_marginBottom="5dp"
         android:background="@color/white"
         android:hint="Número Documento"
-        android:inputType="textPassword"
         android:padding="10dp"
         android:textColor="@color/black"
         android:textColorHint="@color/black" />
@@ -123,7 +119,6 @@
         android:layout_marginBottom="5dp"
         android:background="@color/white"
         android:hint="Dirección"
-        android:inputType="textPassword"
         android:padding="10dp"
         android:textColor="@color/black"
         android:textColorHint="@color/black" />
@@ -140,7 +135,6 @@
         android:layout_marginBottom="5dp"
         android:background="@color/white"
         android:hint="Enfermedad"
-        android:inputType="textPassword"
         android:padding="10dp"
         android:textColor="@color/black"
         android:textColorHint="@color/black" />
