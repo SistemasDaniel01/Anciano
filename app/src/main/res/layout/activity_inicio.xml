@@ -8,6 +8,20 @@
     tools:context=".MainActivity">
 
 
+    <ImageView
+        android:id="@+id/iconImageView"
+        android:layout_width="136dp"
+        android:layout_height="286dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="-17dp"
+        android:layout_marginLeft="-17dp"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        app:srcCompat="@drawable/doctorlogin"
+        app:tint="@color/Abuelo1" />
+
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
@@ -49,19 +63,6 @@
         android:backgroundTint="@color/Abuelo5"
         android:text="Historia Clinica" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="110dp"
-        android:layout_height="70dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="149dp"
-        android:layout_marginEnd="140dp"
-        android:layout_marginBottom="322dp"
-        android:backgroundTint="@color/Abuelo6"
-        android:text="Reporte Diario" />
-
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="250dp"
@@ -80,7 +81,7 @@
         android:layout_height="160dp"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="140dp"
-        android:layout_marginEnd="74dp"
+        android:layout_marginEnd="42dp"
         android:layout_marginBottom="50dp"
         android:text="Hola Doctor"
         android:textSize="115px" />
