@@ -4,23 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Abuelo2"
+    android:background="@drawable/fondo"
     tools:context=".MainActivity">
 
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="405dp"
-        android:layout_height="408dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="-5dp"
-        android:layout_marginTop="-218dp"
-        android:layout_marginEnd="0dp"
-        android:layout_marginBottom="402dp"
-        app:srcCompat="@drawable/abuelo2" />
 
 
     <EditText
@@ -42,10 +29,10 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imageView4"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="222dp"
-        android:layout_marginBottom="95dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="623dp"
         android:text="Hola Doctor"
         android:textSize="65px" />
 

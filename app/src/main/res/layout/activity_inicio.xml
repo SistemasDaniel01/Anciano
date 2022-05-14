@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo"
+    android:background="@color/Abuelo2"
     tools:context=".MainActivity">
 
 
@@ -29,12 +29,11 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="22dp"
         android:layout_marginTop="5dp"
-        android:layout_marginEnd="37dp"
-        android:layout_marginBottom="409dp"
+        android:layout_marginEnd="300dp"
+        android:layout_marginBottom="353dp"
         android:text="Categorias"
-        android:textSize="40dp"
         android:textStyle="bold" />
 
     <TextView
@@ -44,10 +43,10 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="22dp"
         android:layout_marginTop="5dp"
-        android:layout_marginEnd="198dp"
-        android:layout_marginBottom="373dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="326dp"
         android:text="Elige la opcion que deseas" />
 
     <com.google.android.material.button.MaterialButton
@@ -57,9 +56,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="279dp"
-        android:layout_marginBottom="279dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginEnd="247dp"
+        android:layout_marginBottom="228dp"
         android:backgroundTint="@color/Abuelo5"
         android:text="Historia Clinica" />
 
@@ -70,9 +69,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="167dp"
-        android:layout_marginEnd="121dp"
-        android:layout_marginBottom="277dp"
+        android:layout_marginStart="177dp"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="228dp"
         android:backgroundTint="@color/Abuelo6"
         android:text="Reporte Diario" />
 
@@ -94,10 +93,10 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/imageView4"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="201dp"
-        android:layout_marginBottom="73dp"
+        android:layout_marginEnd="222dp"
+        android:layout_marginBottom="95dp"
         android:text="Hola Doctor"
-        android:textSize="80px" />
+        android:textSize="65px" />
 
 
 </RelativeLayout>
