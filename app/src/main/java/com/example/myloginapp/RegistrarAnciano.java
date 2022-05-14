@@ -19,7 +19,7 @@ public class RegistrarAnciano extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registrar_anciano);
-        Intent histori = new Intent(this,Inicio.class);
+        Intent pago = new Intent(this,Pagos.class);
 
         TextView name =(TextView) findViewById(R.id.name);
         TextView surname =(TextView) findViewById(R.id.surname);
@@ -53,7 +53,7 @@ public class RegistrarAnciano extends AppCompatActivity {
                 Global.elements.add(anciano);
                 Toast.makeText(RegistrarAnciano.this,"Registro Exitoso",Toast.LENGTH_SHORT).show();
 
-                //startActivity(histori);
+                startActivity(pago);
 
 
             }
