@@ -53,7 +53,7 @@ public class RegistrarAnciano extends AppCompatActivity {
                 Global.elements.add(anciano);
                 Toast.makeText(RegistrarAnciano.this,"Registro Exitoso",Toast.LENGTH_SHORT).show();
 
-                startActivity(histori);
+                //startActivity(histori);
 
 
             }
