@@ -24,6 +24,54 @@
         android:textSize="45dp"
         android:textStyle="bold" />
 
+    <ImageView
+        android:id="@+id/iconImageView"
+        android:layout_width="68dp"
+        android:layout_height="111dp"
+        android:layout_alignBottom="@+id/username2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginBottom="-33dp"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        app:srcCompat="@drawable/correo"
+        app:tint="@color/Abuelo" />
+
+    <ImageView
+        android:id="@+id/iconImageView1"
+        android:layout_width="68dp"
+        android:layout_height="111dp"
+        android:layout_alignBottom="@+id/username"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginBottom="-33dp"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        app:srcCompat="@drawable/candado"
+        app:tint="@color/Abuelo" />
+
+    <ImageView
+        android:id="@+id/iconImageView2"
+        android:layout_width="68dp"
+        android:layout_height="111dp"
+        android:layout_alignBottom="@+id/password"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginBottom="-33dp"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        app:srcCompat="@drawable/candado"
+        app:tint="@color/Abuelo" />
+
     <EditText
         android:id="@+id/username"
         android:layout_width="match_parent"
@@ -78,7 +126,7 @@
         android:layout_below="@id/password"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="62dp"
+        android:layout_marginTop="73dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
         android:backgroundTint="@color/Abuelo3"
