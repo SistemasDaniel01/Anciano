@@ -8,13 +8,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Laura Sofia/OneDrive/Escritorio/Soft1/Anciano/app/src/main/res/layout/activity_cliente.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/Laura Sofia/OneDrive/Escritorio/Soft1/Anciano/app/src/main/res/layout/activity_description.xml" value="0.25" />
+        <entry key="..\:/Users/Laura Sofia/OneDrive/Escritorio/Soft1/Anciano/app/src/main/res/layout/activity_historia_clinica.xml" value="0.25" />
+        <entry key="..\:/Users/Laura Sofia/OneDrive/Escritorio/Soft1/Anciano/app/src/main/res/layout/activity_inicio.xml" value="0.25" />
+        <entry key="..\:/Users/Laura Sofia/OneDrive/Escritorio/Soft1/Anciano/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Laura Sofia/OneDrive/Escritorio/Soft1/Anciano/app/src/main/res/layout/activity_pagos.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/Laura Sofia/OneDrive/Escritorio/Soft1/Anciano/app/src/main/res/layout/activity_registrar_anciano.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/Laura Sofia/OneDrive/Escritorio/Soft1/Anciano/app/src/main/res/layout/activity_registro.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/Laura Sofia/OneDrive/Escritorio/Soft1/Anciano/app/src/main/res/layout/list_element.xml" value="0.25" />
         <entry key="..\:/Users/planl/Downloads/MyLoginApp-master/MyLoginApp-master/app/src/main/res/layout/activity_cliente.xml" value="0.18642350557244175" />
         <entry key="..\:/Users/planl/Downloads/MyLoginApp-master/MyLoginApp-master/app/src/main/res/layout/activity_description.xml" value="0.20878623188405798" />
         <entry key="..\:/Users/planl/Downloads/MyLoginApp-master/MyLoginApp-master/app/src/main/res/layout/activity_historia_clinica.xml" value="0.20878623188405798" />
         <entry key="..\:/Users/planl/Downloads/MyLoginApp-master/MyLoginApp-master/app/src/main/res/layout/activity_inicio.xml" value="0.18642350557244175" />
         <entry key="..\:/Users/planl/Downloads/MyLoginApp-master/MyLoginApp-master/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/planl/Downloads/MyLoginApp-master/MyLoginApp-master/app/src/main/res/layout/activity_pagos.xml" value="0.38697916666666665" />
-        <entry key="..\:/Users/planl/Downloads/MyLoginApp-master/MyLoginApp-master/app/src/main/res/layout/activity_registrar_anciano.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/planl/Downloads/MyLoginApp-master/MyLoginApp-master/app/src/main/res/layout/activity_registro.xml" value="0.20878623188405798" />
         <entry key="..\:/Users/planl/Downloads/MyLoginApp-master/MyLoginApp-master/app/src/main/res/layout/list_element.xml" value="0.20878623188405798" />
       </map>

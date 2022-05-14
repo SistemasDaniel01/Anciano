@@ -40,7 +40,6 @@
         android:textStyle="bold" />
 
 
-
     <Spinner
         android:id="@+id/spi1"
         android:layout_width="match_parent"
