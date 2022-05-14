@@ -2,7 +2,7 @@ package com.example.myloginapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -11,20 +11,22 @@ import android.widget.Toast;
 
 import com.google.android.material.button.MaterialButton;
 
-public class Pagos extends AppCompatActivity {
+public class Pay extends AppCompatActivity {
 
     private Spinner spi1;
     private Spinner spi2;
 
-    MaterialButton pagar = (MaterialButton) findViewById(R.id.pagar);
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pagos);
+        setContentView(R.layout.activity_pay);
 
-        spi1 = (Spinner) findViewById(R.id.spi1);
-        spi2 = (Spinner) findViewById(R.id.spi2);
+        Intent cliente = new Intent(this,Cliente.class);
+
+        MaterialButton pagar = (MaterialButton) findViewById(R.id.pay);
+
+        spi1 = (Spinner) findViewById(R.id.spinner);
+        spi2 = (Spinner) findViewById(R.id.spinner2);
 
         String[] opciones = {"Plan Pro","Plan Premium"};
 
@@ -39,19 +41,20 @@ public class Pagos extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-               String plan = spi1.getSelectedItem().toString();
-               String pay = spi2.getSelectedItem().toString();
+                String plan = spi1.getSelectedItem().toString();
+                String pay = spi2.getSelectedItem().toString();
 
-               String total = "Usted selecciono el plan: "+plan+" y el metodo de pago: "+pay;
+                String total = "Usted selecciono el plan: "+plan+" y el metodo de pago: "+pay;
 
-               Toast.makeText(Pagos.this,total,Toast.LENGTH_SHORT).show();
+                Toast.makeText(Pay.this,total,Toast.LENGTH_SHORT).show();
 
+                startActivity(cliente);
 
             }
         });
 
-
     }
+
 
 
 
