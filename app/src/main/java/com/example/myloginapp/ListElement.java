@@ -7,6 +7,8 @@ public class ListElement implements Serializable {
     public String name;
     public String city;
     public String status;
+    public String documento;
+    public String direccion;
     public int edad;
     public String sexo;
     public String enfermedad;
@@ -22,6 +24,22 @@ public class ListElement implements Serializable {
         this.name = name;
         this.city = city;
         this.status = status;
+    }
+
+    public String getDocumento() {
+        return documento;
+    }
+
+    public void setDocumento(String documento) {
+        this.documento = documento;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
     }
 
     public int getEdad() {

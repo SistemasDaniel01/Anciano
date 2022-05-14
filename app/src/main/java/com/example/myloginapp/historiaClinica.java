@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class historiaClinica extends AppCompatActivity {
-    List<ListElement> elements;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,7 +21,7 @@ public class historiaClinica extends AppCompatActivity {
     }
 
     public void init(){
-        elements = new ArrayList<>();
+
         ListElement anciano1 = new ListElement();
         anciano1.setColor("#770077");
         anciano1.setName("Oscar Rodriguez");
@@ -31,7 +31,7 @@ public class historiaClinica extends AppCompatActivity {
         anciano1.setSexo("Masculino");
         anciano1.setDiagnostico("Diabetes controlada, mejorar ejercicio");
         anciano1.setPosologia("Debe caminar 3 veces al dia durante 20 minutos, tomar medicamentoY cada 6 horas");
-        elements.add(anciano1);
+        Global.elements.add(anciano1);
         ListElement anciano2 = new ListElement();
         anciano2.setColor("#885543");
         anciano2.setName("Antonia Florez");
@@ -41,7 +41,7 @@ public class historiaClinica extends AppCompatActivity {
         anciano2.setSexo("Femenino");
         anciano2.setDiagnostico("Posibles afectaciones en el corazon a futuro");
         anciano2.setPosologia("Revisar su tension 2 veces al dia, reportar cambios");
-        elements.add(anciano2);
+        Global.elements.add(anciano2);
         ListElement anciano3 = new ListElement();
         anciano3.setColor("#124388");
         anciano3.setName("Juan Principado");
@@ -51,7 +51,7 @@ public class historiaClinica extends AppCompatActivity {
         anciano3.setSexo("Masculino");
         anciano3.setDiagnostico("su tension es controlada pero posee leves alteraciones en la misma");
         anciano3.setPosologia("tomar medicamentoW en ayunas");
-        elements.add(anciano3);
+        Global.elements.add(anciano3);
         ListElement anciano4 = new ListElement();
         anciano4.setColor("#008755");
         anciano4.setName("Lola Jazmin");
@@ -61,11 +61,11 @@ public class historiaClinica extends AppCompatActivity {
         anciano4.setSexo("Femenino");
         anciano4.setDiagnostico("tiene problemas al recordar ciertos sucesos cercanos y presenta indicios de TOC");
         anciano4.setPosologia("sesiones donde se hable con ella todos los dias al menos durante 1 hora, tomar medicamentoR para controlar rasgos agresivos");
-        elements.add(anciano4);
+        Global.elements.add(anciano4);
 
 
 
-        ListAdapter listAdapter = new ListAdapter(elements, this, new ListAdapter.OnItemClickListener() {
+        ListAdapter listAdapter = new ListAdapter(Global.elements, this, new ListAdapter.OnItemClickListener() {
             @Override
             public void OnItemClick(ListElement item) {
                 moveToDescription(item);

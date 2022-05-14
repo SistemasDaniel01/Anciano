@@ -50,7 +50,7 @@
         android:text="Elige la opción que deseas" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/historia"
+        android:id="@+id/regis"
         android:layout_width="110dp"
         android:layout_height="70dp"
         android:layout_alignParentStart="true"
