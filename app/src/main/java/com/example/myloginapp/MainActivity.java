@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
         Intent siguiente = new Intent(this,Inicio.class);
         Intent registro = new Intent(this,Registro.class);
         Intent cliente = new Intent(this,Cliente.class);
+        Intent admin = new Intent(this, Administrador.class);
 
 
         TextView username =(TextView) findViewById(R.id.username);
@@ -77,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
         loginbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(username.getText().toString().equals("admin") && password.getText().toString().equals("admin")){
+                if(username.getText().toString().equals("medico") && password.getText().toString().equals("medico")){
                     //correct
 
                     startActivity(siguiente);
@@ -86,6 +87,9 @@ public class MainActivity extends AppCompatActivity {
                 }else if(username.getText().toString().equals("cliente") && password.getText().toString().equals("cliente")){
 
                     startActivity(cliente);
+                }else if(username.getText().toString().equals("admin") && password.getText().toString().equals("admin")){
+
+                    startActivity(admin);
                 }else
                     //incorrect
                     Toast.makeText(MainActivity.this,"LOGIN FAILED !!!",Toast.LENGTH_SHORT).show();
