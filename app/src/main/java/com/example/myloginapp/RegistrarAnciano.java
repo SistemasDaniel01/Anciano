@@ -48,7 +48,7 @@ public class RegistrarAnciano extends AppCompatActivity {
                 anciano.setDocumento(document.getText().toString());
                 anciano.setDireccion(address.getText().toString());
                 anciano.setStatus(illness.getText().toString());
-                anciano.setCity("Bogota");
+                anciano.setCity(address.getText().toString());
                 anciano.setDiagnostico("Diabetes controlada, mejorar ejercicio");
                 anciano.setPosologia("Debe caminar 3 veces al dia durante 20 minutos, tomar medicamentoY cada 6 horas");
                 Global.elements.add(anciano);
