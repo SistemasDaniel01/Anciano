@@ -28,7 +28,7 @@ public class Pay extends AppCompatActivity {
         spi1 = (Spinner) findViewById(R.id.spinner);
         spi2 = (Spinner) findViewById(R.id.spinner2);
 
-        String[] opciones = {"Plan Pro","Plan Premium"};
+        String[] opciones = {"Plan Básico","Plan Premium"};
 
         String[] pagos = {"PSE","Credito","Efectivo"};
 
