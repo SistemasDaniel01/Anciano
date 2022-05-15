@@ -14,11 +14,16 @@ import com.google.android.material.button.MaterialButton;
 public class MainActivity extends AppCompatActivity {
 
 
+    private static boolean bandera = true;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Clientes client = new Clientes();
+        client.setCorreo("Mario");
+        client.setClave("456");
+        Global.clientes.add(client);
         ListElement anciano1 = new ListElement();
         anciano1.setColor("#770077");
         anciano1.setName("Oscar Rodríguez");
@@ -64,7 +69,6 @@ public class MainActivity extends AppCompatActivity {
         Intent siguiente = new Intent(this,Inicio.class);
         Intent registro = new Intent(this,Registro.class);
         Intent cliente = new Intent(this,Cliente.class);
-        Intent admin = new Intent(this, Administrador.class);
 
 
         TextView username =(TextView) findViewById(R.id.username);
@@ -78,21 +82,28 @@ public class MainActivity extends AppCompatActivity {
         loginbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(username.getText().toString().equals("medico") && password.getText().toString().equals("medico")){
-                    //correct
+                for(int i=0;i<Global.clientes.size();i++){
 
-                    startActivity(siguiente);
+                    if(username.getText().toString().equals("admin") && password.getText().toString().equals("admin")){
+                        //correct
+                        bandera = false;
 
-                    Toast.makeText(MainActivity.this,"LOGIN SUCCESSFUL",Toast.LENGTH_SHORT).show();
-                }else if(username.getText().toString().equals("cliente") && password.getText().toString().equals("cliente")){
+                        startActivity(siguiente);
 
-                    startActivity(cliente);
-                }else if(username.getText().toString().equals("admin") && password.getText().toString().equals("admin")){
+                        Toast.makeText(MainActivity.this,"LOGIN SUCCESSFUL",Toast.LENGTH_SHORT).show();
+                    }else if(username.getText().toString().equals(Global.clientes.get(i).getCorreo()) && password.getText().toString().equals(Global.clientes.get(i).getClave())){
 
-                    startActivity(admin);
-                }else
-                    //incorrect
+                        bandera = false;
+                        Global.variablei = i;
+                        startActivity(cliente);
+                    }
+                }
+
+                if(bandera){
                     Toast.makeText(MainActivity.this,"LOGIN FAILED !!!",Toast.LENGTH_SHORT).show();
+                }
+
+
             }
         });
 
