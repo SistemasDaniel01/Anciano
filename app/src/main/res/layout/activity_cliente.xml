@@ -86,7 +86,6 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="117dp"
         android:layout_marginEnd="43dp"
-        android:text="Hola Marina"
         android:textSize="105px" />
 
 
