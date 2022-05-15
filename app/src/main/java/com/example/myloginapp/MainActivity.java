@@ -14,16 +14,10 @@ import com.google.android.material.button.MaterialButton;
 public class MainActivity extends AppCompatActivity {
 
 
-    private static boolean bandera = true;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Clientes client = new Clientes();
-        client.setCorreo("Mario");
-        client.setClave("456");
-        Global.clientes.add(client);
 
         ListElement anciano1 = new ListElement();
         anciano1.setColor("#770077");
@@ -67,7 +61,6 @@ public class MainActivity extends AppCompatActivity {
         Global.elements.add(anciano4);
 
 
-
         Intent siguiente = new Intent(this,Inicio.class);
         Intent registro = new Intent(this,Registro.class);
         Intent cliente = new Intent(this,Cliente.class);
@@ -84,28 +77,18 @@ public class MainActivity extends AppCompatActivity {
         loginbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                for(int i=0;i<Global.clientes.size();i++){
+                if(username.getText().toString().equals("admin") && password.getText().toString().equals("admin")){
+                    //correct
 
-                    if(username.getText().toString().equals("admin") && password.getText().toString().equals("admin")){
+                    startActivity(siguiente);
 
-                        bandera = false;
+                    Toast.makeText(MainActivity.this,"LOGIN SUCCESSFUL",Toast.LENGTH_SHORT).show();
+                }else if(username.getText().toString().equals("cliente") && password.getText().toString().equals("cliente")){
 
-                        startActivity(siguiente);
-
-                        Toast.makeText(MainActivity.this,"LOGIN SUCCESSFUL",Toast.LENGTH_SHORT).show();
-                    }else if(username.getText().toString().equals(Global.clientes.get(i).getCorreo()) && password.getText().toString().equals(Global.clientes.get(i).getClave())){
-
-                        bandera = false;
-
-                        Global.variablei = i;
-                        startActivity(cliente);
-                    }
-                }
-
-                if(bandera){
+                    startActivity(cliente);
+                }else
+                    //incorrect
                     Toast.makeText(MainActivity.this,"LOGIN FAILED !!!",Toast.LENGTH_SHORT).show();
-                }
-
             }
         });
 
