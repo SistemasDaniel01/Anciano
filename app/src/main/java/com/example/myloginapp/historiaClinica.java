@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,6 +18,8 @@ public class historiaClinica extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_historia_clinica);
         init();
+
+        
 
     }
 
