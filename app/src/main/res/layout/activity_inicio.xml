@@ -88,7 +88,6 @@
         android:layout_marginTop="140dp"
         android:layout_marginEnd="34dp"
         android:layout_marginBottom="50dp"
-        android:text="Hola Doctor"
         android:textSize="115px" />
 
 

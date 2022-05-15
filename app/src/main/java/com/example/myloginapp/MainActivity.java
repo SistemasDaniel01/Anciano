@@ -24,6 +24,12 @@ public class MainActivity extends AppCompatActivity {
         client.setCorreo("Mario");
         client.setClave("456");
         Global.clientes.add(client);
+
+
+        Medico medi = new Medico();
+        medi.setNombre("Raul");
+        medi.setClave("123");
+        Global.medicos.add(medi);
         ListElement anciano1 = new ListElement();
         anciano1.setColor("#770077");
         anciano1.setName("Oscar Rodriguez");
@@ -66,9 +72,10 @@ public class MainActivity extends AppCompatActivity {
         Global.elements.add(anciano4);
 
 
-        Intent siguiente = new Intent(this,Inicio.class);
+        Intent administrar = new Intent(this,Administrador.class);
         Intent registro = new Intent(this,Registro.class);
         Intent cliente = new Intent(this,Cliente.class);
+        Intent medico = new Intent(this,Inicio.class);
 
 
         TextView username =(TextView) findViewById(R.id.username);
@@ -77,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
         MaterialButton loginbtn = (MaterialButton) findViewById(R.id.loginbtn);
         MaterialButton registerbtn = (MaterialButton) findViewById(R.id.registerbtn);
 
-        //admin and admin
+
 
         loginbtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -85,10 +92,10 @@ public class MainActivity extends AppCompatActivity {
                 for(int i=0;i<Global.clientes.size();i++){
 
                     if(username.getText().toString().equals("admin") && password.getText().toString().equals("admin")){
-                        //correct
+
                         bandera = false;
 
-                        startActivity(siguiente);
+                        startActivity(administrar);
 
                         Toast.makeText(MainActivity.this,"LOGIN SUCCESSFUL",Toast.LENGTH_SHORT).show();
                     }else if(username.getText().toString().equals(Global.clientes.get(i).getCorreo()) && password.getText().toString().equals(Global.clientes.get(i).getClave())){
@@ -96,6 +103,23 @@ public class MainActivity extends AppCompatActivity {
                         bandera = false;
                         Global.variablei = i;
                         startActivity(cliente);
+                    }
+                }
+
+                for(int j=0;j<Global.medicos.size();j++){
+
+                    if(username.getText().toString().equals("admin") && password.getText().toString().equals("admin")){
+
+                        bandera = false;
+
+                        startActivity(administrar);
+
+                        Toast.makeText(MainActivity.this,"LOGIN SUCCESSFUL",Toast.LENGTH_SHORT).show();
+                    }else if(username.getText().toString().equals(Global.medicos.get(j).getNombre()) && password.getText().toString().equals(Global.medicos.get(j).getClave())){
+
+                        bandera = false;
+                        Global.variablej = j;
+                        startActivity(medico);
                     }
                 }
 
