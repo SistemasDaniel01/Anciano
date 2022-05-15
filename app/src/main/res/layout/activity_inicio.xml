@@ -31,9 +31,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="5dp"
-        android:layout_marginTop="220dp"
+        android:layout_marginTop="208dp"
         android:layout_marginEnd="46dp"
-        android:layout_marginBottom="452dp"
+        android:layout_marginBottom="464dp"
         android:text="Categorías"
         android:textSize="45dp"
         android:textStyle="bold" />
@@ -46,10 +46,10 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="281dp"
-        android:layout_marginEnd="200dp"
-        android:layout_marginBottom="431dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="273dp"
+        android:layout_marginEnd="210dp"
+        android:layout_marginBottom="413dp"
         android:text="Elige la opción que deseas" />
 
     <com.google.android.material.button.MaterialButton
@@ -60,10 +60,10 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="311dp"
-        android:layout_marginEnd="193dp"
-        android:layout_marginBottom="354dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="307dp"
+        android:layout_marginEnd="201dp"
+        android:layout_marginBottom="357dp"
         android:backgroundTint="@color/Abuelo5"
         android:text="Historia Clínica"
         android:textSize="40px" />
@@ -86,7 +86,7 @@
         android:layout_height="160dp"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="140dp"
-        android:layout_marginEnd="34dp"
+        android:layout_marginEnd="-11dp"
         android:layout_marginBottom="50dp"
         android:textSize="115px" />
 

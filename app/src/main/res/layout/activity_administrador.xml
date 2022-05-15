@@ -16,9 +16,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_gravity="center"
-        android:layout_marginStart="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginBottom="92dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginBottom="67dp"
         android:paddingLeft="14dp"
         android:paddingRight="14dp"
         app:srcCompat="@drawable/user1"
@@ -51,7 +51,7 @@
         android:layout_marginStart="22dp"
         android:layout_marginTop="281dp"
         android:layout_marginEnd="200dp"
-        android:layout_marginBottom="431dp"
+        android:layout_marginBottom="401dp"
         android:text="Elige la opción que deseas" />
 
     <com.google.android.material.button.MaterialButton
@@ -88,8 +88,8 @@
         android:layout_height="160dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="125dp"
-        android:layout_marginEnd="22dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="-15dp"
         android:layout_marginBottom="50dp"
         android:text="Hola Pablo"
         android:textSize="115px" />

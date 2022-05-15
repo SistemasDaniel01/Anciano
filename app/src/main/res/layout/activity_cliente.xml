@@ -32,10 +32,10 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="14dp"
-        android:layout_marginTop="224dp"
-        android:layout_marginEnd="45dp"
-        android:layout_marginBottom="448dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="207dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="465dp"
         android:text="Categorías"
         android:textSize="45dp"
         android:textStyle="bold" />
@@ -48,10 +48,10 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="17dp"
-        android:layout_marginTop="283dp"
-        android:layout_marginEnd="205dp"
-        android:layout_marginBottom="429dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="269dp"
+        android:layout_marginEnd="204dp"
+        android:layout_marginBottom="414dp"
         android:text="Elige la opción que deseas" />
 
     <com.google.android.material.button.MaterialButton
@@ -61,9 +61,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="315dp"
-        android:layout_marginBottom="346dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginBottom="351dp"
         android:backgroundTint="@color/Abuelo5"
         android:text="Registrar Anciano"
         android:textSize="50px" />
@@ -86,8 +86,8 @@
         android:layout_height="80dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="115dp"
-        android:layout_marginEnd="29dp"
+        android:layout_marginTop="118dp"
+        android:layout_marginEnd="0dp"
         android:text="Hola Marina"
         android:textSize="105px" />
 

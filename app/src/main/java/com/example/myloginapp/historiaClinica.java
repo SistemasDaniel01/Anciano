@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,6 +18,9 @@ public class historiaClinica extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_historia_clinica);
         init();
+
+        TextView nombreMedico = (TextView) findViewById(R.id.textView6);
+        nombreMedico.setText("Hola " + Global.medicos.get(Global.variablej).getNombre());
 
     }
 
