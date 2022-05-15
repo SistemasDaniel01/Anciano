@@ -97,7 +97,7 @@
         android:layout_marginEnd="90dp"
         android:layout_marginBottom="10dp"
         android:background="@color/white"
-        android:hint="Correo electronico"
+        android:hint="Nombre"
         android:padding="10dp"
         android:textColor="@color/black"
         android:textColorHint="@color/black" />
@@ -138,9 +138,9 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/username2"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="131dp"
+        android:layout_marginEnd="186dp"
         android:layout_marginBottom="1px"
-        android:text="Ingresar correo Electronico"
+        android:text="Ingresar su nombre"
         android:textSize="45px"
         android:textStyle="bold" />
 
