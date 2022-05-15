@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyLoginApp">
         <activity
+            android:name=".RegistrarPersonal"
+            android:exported="false" />
+        <activity
             android:name=".Administrador"
             android:exported="false" />
         <activity
             android:name=".Pay"
-            android:exported="false" />
-        <activity
-            android:name=".Pagos"
             android:exported="false" />
         <activity
             android:name=".RegistrarAnciano"

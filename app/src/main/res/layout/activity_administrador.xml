@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo"
-    tools:context=".Administrador">
+    tools:context=".MainActivity">
 
 
     <ImageView
@@ -65,7 +65,7 @@
         android:layout_marginEnd="193dp"
         android:layout_marginBottom="338dp"
         android:backgroundTint="@color/Abuelo5"
-        android:text="Registrar personal de atención"
+        android:text="Registrar médico"
         android:textSize="40px" />
 
     <ImageView

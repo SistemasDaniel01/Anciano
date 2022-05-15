@@ -50,7 +50,7 @@
         android:layout_marginTop="281dp"
         android:layout_marginEnd="200dp"
         android:layout_marginBottom="431dp"
-        android:text="Elige la opcion que deseas" />
+        android:text="Elige la opción que deseas" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/historia"
@@ -65,7 +65,7 @@
         android:layout_marginEnd="193dp"
         android:layout_marginBottom="354dp"
         android:backgroundTint="@color/Abuelo5"
-        android:text="Historia Clinica"
+        android:text="Historia Clínica"
         android:textSize="40px" />
 
     <ImageView
