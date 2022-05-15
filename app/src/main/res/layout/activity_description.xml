@@ -14,10 +14,10 @@
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
-        android:text="Descripcion"
+        android:text="Descripción"
         android:textColor="@color/black"
         android:textSize="56dp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textedad"
@@ -119,10 +119,9 @@
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="80dp"
-        android:text="Diagnostico:"
+        android:text="Diagnóstico:"
         android:textColor="@color/black"
-        android:textSize="17dp"
-        />
+        android:textSize="17dp" />
 
     <TextView
         android:id="@+id/diagDescriptionTextView"
@@ -149,7 +148,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="80dp"
-        android:text="Posologia:"
+        android:text="Posología:"
         android:textColor="@color/black"
         android:textSize="17dp"
         />

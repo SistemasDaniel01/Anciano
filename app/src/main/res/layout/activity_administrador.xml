@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo"
-    tools:context=".Administrador">
+    tools:context=".MainActivity">
 
 
     <ImageView
@@ -55,7 +55,7 @@
         android:text="Elige la opción que deseas" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/historia"
+        android:id="@+id/regismed"
         android:layout_width="wrap_content"
         android:layout_height="82dp"
         android:layout_alignParentStart="true"
@@ -67,7 +67,7 @@
         android:layout_marginEnd="218dp"
         android:layout_marginBottom="332dp"
         android:backgroundTint="@color/Abuelo5"
-        android:text="Registrar personal de atención"
+        android:text="Registrar médico"
         android:textSize="40px" />
 
     <ImageView
